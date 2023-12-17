@@ -73,6 +73,16 @@ input:focus, textarea:focus, select:focus {
 		padding: 0 150px;
 	}
 }
+@media(min-width:360px){
+	.newsletter-bx {
+    background: #fff;
+    border-radius: 55px;
+    color: #121212;
+    margin-bottom: 80px;
+    margin-top: -122px;
+    padding: 49px 12px;
+}
+	
 
 p.success {
 	color: green;
