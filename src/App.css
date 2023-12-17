@@ -4,6 +4,7 @@
 	src: url('./assets/font/CentraNo2-Bold.ttf');
 	font-weight: 700;
 }
+
 @font-face {
 	font-family: Centra;
 	src: url('./assets/font/CentraNo2-Medium.ttf');
@@ -73,7 +74,7 @@ input:focus, textarea:focus, select:focus {
 		padding: 0 150px;
 	}
 }
-@media(min-width:360px){
+@media(min-width:360px) and (max-width:755px){
 	.newsletter-bx {
     background: #fff;
     border-radius: 55px;
